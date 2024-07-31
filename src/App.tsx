@@ -1,7 +1,9 @@
+import BasicOfMotion from "./components/BasicsOfMotion/BasicOfMotion"
+
 function App() {
   return (
     <>
-      
+      <BasicOfMotion/>
     </>
   )
 }
