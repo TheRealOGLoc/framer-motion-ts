@@ -4,8 +4,8 @@ export default function Gestures() {
   return (
     <MotionConfig transition={{
       duration: 0.5,
-      ease: "easeInOut"
-    }} >  //MotionConfig is used to set configuration options for all children motion components.
+      ease: "easeInOut" //MotionConfig is used to set configuration options for all children motion components.
+    }} >  
       <div>
         <motion.button
           whileHover={{  // hover in css

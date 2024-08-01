@@ -9,8 +9,8 @@ export default function BasicOfMotion() {
   return (
     <div>
       <motion.button onClick={() => setIsTrue(!isTrue)} >SHOW/HIDE</motion.button>
-      <AnimatePresence>  // add this component when the exit animation is needed
-        {
+      <AnimatePresence>  
+        { // add this component when the exit animation is needed
           isTrue && <motion.div
             className="basic-of-motion-box"
             initial={{    // initial div status
